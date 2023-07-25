@@ -1,0 +1,138 @@
+/* Hero row - main  */
+.frame-hero-full-bleed-light {
+    background: linear-gradient(180deg, #0c713a 0%, #1e431e 100%);
+    width: 100vw;
+  }
+  
+  /* Required change to enforce custom above-the-fold dark background. */
+  /* Note: dark theme not enabled for Frame tenant. */
+  .frame-hero {
+    color: #fff !important;
+  }
+  
+  .frame-hero .devsite-landing-row-item-image {
+    width: 400px;
+  }
+  
+  /* Required change to enforce custom above-the-fold dark background. */
+  /* Note: dark theme not enabled for Frame tenant. */
+  .frame-hero .devsite-landing-row-header-text .devsite-landing-row-description,
+  .frame-hero .devsite-landing-row-inner .devsite-landing-row-item-description h3,
+  .frame-hero .devsite-landing-row-inner .devsite-landing-row-item-description-content,
+  .frame-hero .devsite-landing-row-inner .devsite-landing-row-item-icon-container
+  {
+    color: #fff !important;
+  }
+  
+  .frame-hero .devsite-landing-row-header-text {
+    margin-bottom: 20px;
+  }
+  
+  .frame-hero h3 a,
+  .frame-hero .devsite-landing-row-header-text h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 68px;
+  }
+  
+  .frame-button-light {
+    background: #fff;
+    border-radius: 4px;
+    color: #000;
+    text-transform: none;
+  }
+  
+  /* Hero row - Why Frame  */
+  .frame-hero-full-bleed-dark {
+    background: linear-gradient(180deg, #1e431e 0%, #1e431e 100%);
+    width: 100vw;
+  }
+  
+  .frame-hero-full-bleed-dark .devsite-landing-row-item-body h3 {
+    font-size: 24px;
+    padding: 15px 0;
+  }
+  
+  .frame-hero-full-bleed-dark .devsite-landing-row-item-icon {
+    height: 68px;
+    width: 85px;
+  }
+  
+  .frame-hero .devsite-landing-row-item-description {
+    padding: 0 15px;
+  }
+  
+  /* Essential Frame row  */
+  
+  /* [1] Required change for custom below-the-fold light background. */
+  /* Note: dark theme not enabled for Frame tenant. */
+  .frame-body-light-cards {
+    color: #000 !important; /* [1] */
+    margin-top: 40px;
+  }
+  
+  .frame-body-light-cards .devsite-landing-row-item img {
+    max-width: 75%;
+  }
+  
+  .frame-body-light-cards .devsite-landing-row-item-body h3,
+  .frame-body-light-cards .devsite-landing-row-item-body h3 a {
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  .frame-button-dark {
+    background: #000;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: none;
+  }
+  
+  /* RELEASE NOTES ROW */
+  
+  /* [1] Required change for custom below-the-fold light background. */
+  /* Note: dark theme not enabled for Frame tenant. */
+  .frame-body-light-row {
+    background: #f8f9fa !important; /* [1] */
+    color: #000 !important; /* [1] */
+    padding-top: 40px;
+    width: 100vw;
+  }
+  
+  /* Required change to enforce custom Frame color palette. */
+  .frame-body-cta {
+    background: #1e431e !important;
+  }
+  
+  /* Jumpdown Links */
+  .frame-jumpdown-row {
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 0;
+  }
+  
+  .frame-jumpdown-row .frame-jumpdown-row-html {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .frame-jumpdown-row a {
+    color: var(--tenant-primary-text-color);
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .frame-jumpdown-row a:hover,
+  .frame-jumpdown-row a:focus {
+    color: #0c713a;
+  }
+  
+  .frame-jumpdown-row .material-icons {
+    font: 400 22px 'Material Icons';
+    margin-inline-start: 8px;
+    vertical-align: text-bottom;
+  }

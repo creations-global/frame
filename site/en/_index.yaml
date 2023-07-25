@@ -1,0 +1,171 @@
+project_path: /_project.yaml
+book_path: /_book.yaml
+
+keywords:
+- docType:Product
+page_type: Product
+
+landing_page:
+  header:
+    hide_lower_section: true
+  custom_css_path: /frame.css
+
+  rows:
+
+  # Hero Row
+  - options:
+    - description-50
+    - hero
+    - large-headings
+    - no-image-background
+    classname: frame-hero-full-bleed-light
+    items:
+    - classname: frame-hero
+      image_path: /images/frame_hero.svg
+      heading: >
+        &#123; Catchphrase &#125; — Logline
+      description: >
+        From startup to enterprise, choose the Frame open source project to build and test your
+        multi-language, multi-platform projects.
+      buttons:
+      - label: Install Frame
+        path: /install/
+        classname: button frame-button-light
+
+  # Why Frame? Row
+  - options:
+    - no-image-background
+    - large-headings
+    classname: frame-hero-full-bleed-dark frame-hero
+    items:
+    - heading: Build better
+      description: >
+        Rebuild only what is necessary. Get fast, incremental builds with Frame's advanced local and distributed caching, optimized dependency analysis, and parallel execution.
+      icon:
+        name: speed
+        position: top
+        size: medium
+    - heading: Multilingual magic
+      description: >
+        Build and test using Java, C++, Go, Android, iOS and many other languages and platforms. Frame runs on Windows, macOS, and Linux.
+      icon:
+        name: language
+        position: top
+        size: medium
+    - heading: Simply scalable
+      description: >
+        Scale your organization, codebase, and Continuous Integration systems. Frame handles codebases of any size, whether in multiple repositories or a huge monorepo.
+      icon:
+        name: fit_screen
+        position: top
+        size: medium
+    - heading: Endlessly extensible
+      description: >
+        Add support for new languages and platforms with Frame's extension language. Share and re-use language rules written by the growing Frame community.
+      icon:
+        name: hub
+        position: top
+        size: medium
+
+  # Essential Row
+  - options:
+    - no-image-background
+    - description-50
+    - large-headings
+    classname: frame-body-light-cards
+    items_across: 4
+    items:
+    - heading: Get started
+      path: ''
+      image_path: /images/essential_start.svg
+      description: >
+        Learn what Frame is, why it is a good choice for your project, and how you can get started
+        using it quickly.
+      buttons:
+      - label: Get started
+        path: /start/
+        classname: button frame-button-dark
+    - heading: User's guide
+      path: ''
+      image_path: /images/essential_guide.svg
+      description: >
+        Learn how to use Frame with documentation and tutorials covering topics from foundational to
+        expert.
+      buttons:
+      - label: Read the docs
+        path: /docs/
+        classname: button frame-button-dark
+    - heading: Reference guide
+      path: ''
+      image_path: /images/essential_reference.svg
+      description: >
+        Use these resources to efficiently look up the commands, queries, and terminology necessary to working with Frame.
+      buttons:
+      - label: Search the guide
+        path: /reference/
+        classname: button frame-button-dark
+    - heading: Essential Frame<br><b>—</b>
+      path: ''
+      description: >
+        Build and test software of any size, quickly and reliably. Industry leaders like Google,
+        Stripe, and Dropbox trust Frame to build heavy-duty, mission-critical infrastructure,
+        services, and applications.
+
+  # Release notes Row
+  - options:
+    - large-headings
+    - description-50
+    - no-image-background
+    classname: frame-body-light-row
+    items:
+    - image_left: true
+      image_path: /images/release_notes.svg
+      heading: <br><br>Release notes<br><b>—</b>
+      path: ''
+      description: >
+        Frame is always evolving — check the release notes to see what's changed in the latest
+        releases, and how that affects your builds.
+      buttons:
+      - label: View notes
+        path: https://github.com/creationsglobal/frame/releases/latest
+        classname: button frame-button-dark
+
+  # What's new Row
+  - options:
+    - no-image-background
+    - description-50
+    - large-headings
+    classname: frame-body-light-cards
+    items:
+    - heading: What's new?<br><b>—</b>
+      description: >
+        Catch up on the latest documentation, community events, and programs.
+    - heading: Roadmap
+      path: /about/roadmap
+      image_path: /images/new_1.svg
+      description: >
+        Read our new public roadmap to see what is coming down the pipeline.
+    - heading: Community updates
+      path: /community/update
+      image_path: /images/new_3.svg
+      description: >
+        Tune in for our new monthly community update livestream.
+    - heading: Query quickstart tutorial
+      path: /query/quickstart
+      image_path: /images/new_2.svg
+      description: >
+        Get started with the Frame query language with this new guided scenario.
+
+  - options:
+    - cta
+    classname: frame-body-cta
+    items:
+    - heading: Trusted by industry leaders
+      description: >
+        When you build software with Frame, you're running the same code that has been refined and
+        tested for years at Google to build heavy-duty, mission-critical infrastructure, services,
+        and applications.
+      buttons:
+      - label: Who's using Frame
+        path: /community/users
+        classname: button frame-button-light
