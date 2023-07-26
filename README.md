@@ -4,7 +4,7 @@
 
 # [Frame](https://creations.global)
 
-*Catchphrase* 
+*Catchphrase*
 
 Logline.
 
