@@ -44,7 +44,7 @@ Logline.
   * [Use the query command](https://creations.global/frame/reference/query)
   * [Extend Frame](https://creations.global/frame/rules/concepts)
   * [Write tests](https://creations.global/frame/reference/test-encyclopedia)
-  * [Roadmap](https://creations.global/frame/community/roadmaps)
+  * [Roadmap](https://creations.global/frame/community/roadmaps/)
   * [Who is using Frame?](https://creations.global/frame/community/users)
 
 ## Reporting a Vulnerability
