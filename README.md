@@ -56,6 +56,10 @@ within 3 working days of your email. If the issue is confirmed as a
 vulnerability, we will open a Security Advisory. This project follows a 90 day
 disclosure timeline.
 
+## Roadmap of Frame
+
+See [ROADMAP.md](ROADMAP.md)
+
 ## Contributing to Frame
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
