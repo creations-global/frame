@@ -28,7 +28,7 @@ Logline.
 
 ## Getting Started
 
-  * [Install Frame](https://creations.global/frame/install)
+  * [Install Frame](https://creations.global/frame/install) temp link: [install](./install.md)
   * [Get started with Frame](https://creations.global/frame/start)
   * Follow our tutorials:
 
