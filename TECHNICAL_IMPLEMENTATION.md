@@ -35,7 +35,7 @@ $ ./frame.sh
 You should be prompted with something similar to:
 
 ```
-Unable to find image 'threagile/threagile:latest' locally
+Unable to find image 'frame/frame:latest' locally
 latest: Pulling from frame/frame
 c6a83fedfae6: Pull complete 
 4e7c96a80194: Pull complete 
