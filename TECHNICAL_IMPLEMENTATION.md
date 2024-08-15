@@ -10,7 +10,7 @@ Based on "Threagile - The Open-Source Agile Threat Modeling Toolkit" at https://
 
 Create Frame as a Docker Image. It can be pulled from a Docker Image host (such as Docker Hub).
 
-Within a script (e.g. frame.sh) the creation of the Frame Docker Container is handled:
+Within a script (e.g. ```frame.sh```) the creation of the Frame Docker Container is handled:
 
 ```
 #!/bin/bash
