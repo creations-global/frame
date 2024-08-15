@@ -24,7 +24,7 @@ Make sure above script is executable:
 $ chmod +x frame.sh
 ```
 
-This script will (first time only) pull the Frame Docker Image from DockerHub, run it as a Container interactively (hence ```-it```), mount the dirrect directory as a volume inside the Frame Docker Container (path: ```/app/work```) and destroy the Frame Docker Container as soon as the command has been completed (hence ```-rm```).
+This script will (first time only) pull the Frame Docker Image from DockerHub, run it as a Container interactively (hence ```-it```), mount the current directory as a volume inside the Frame Docker Container (path: ```/app/work```) and destroy the Frame Docker Container as soon as the command has been completed (hence ```-rm```).
 
 Now when we want to see the ```help``` information of frame, simply run the following command in a terminal of a computer on which Docker is installed and has access to Docker Hub.
 
