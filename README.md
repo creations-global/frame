@@ -47,6 +47,10 @@ Logline.
   * [Roadmap](https://creations.global/frame/community/roadmaps)
   * [Who is using Frame?](https://creations.global/frame/community/users)
 
+## Technical Implementation
+
+See [TECHNICAL_IMPLEMENTATION.md](TECHNICAL_IMPLEMENTATION.md)
+
 ## Reporting a Vulnerability
 
 To report a security issue, please email security@creations.global with a description
