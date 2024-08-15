@@ -14,7 +14,7 @@ Within a script (e.g. ```frame.sh```) the creation of the Frame Docker Container
 
 ```
 #!/bin/bash
-docker run --rm -it -v "$(pwd)":/app/work frame/frame:latest "$@"
+docker run --rm -it -v "$(pwd)":/app/work creations-global/frame:latest "$@"
 ```
 frame.sh
 
@@ -26,7 +26,7 @@ $ chmod +x frame.sh
 
 This script will (first time only) pull the Frame Docker Image from DockerHub, run it as a Container interactively (hence ```-it```), mount the dirrect directory as a volume inside the Frame Docker Container (path: ```/app/work```) and destroy the Frame Docker Container as soon as the command has been completed (hence ```-rm```).
 
-Now when we want to see the ```help``` information of frame, simply run the folliwing command in a terminal of a computer on which Docker is installed and has access to Docker Hub.
+Now when we want to see the ```help``` information of frame, simply run the following command in a terminal of a computer on which Docker is installed and has access to Docker Hub.
 
 ```
 $ ./frame.sh
@@ -35,14 +35,14 @@ $ ./frame.sh
 You should be prompted with something similar to:
 
 ```
-Unable to find image 'frame/frame:latest' locally
-latest: Pulling from frame/frame
+Unable to find image 'creations-global/frame:latest' locally
+latest: Pulling from creations-global/frame
 c6a83fedfae6: Pull complete 
 4e7c96a80194: Pull complete 
 17469ffba11c: Pull complete 
 4f4fb700ef54: Pull complete 
 Digest: sha256:abb9eccb111a2059c4876759a24245db02ad295b1608d3a4634ec250f38d9640
-Status: Downloaded newer image for frame/frame:latest
+Status: Downloaded newer image for creations-global/frame:latest
 
 
   ______                        
@@ -55,7 +55,7 @@ Status: Downloaded newer image for frame/frame:latest
 Frame - Tagline
 
 
-Documentation: https://frame.io
+Documentation: https://creations.global/frame
 Docker Images: https://hub.docker.com/r/creations-global/frame
 Sourcecode: https://github.com/creations-global/frame
 License: Open-Source (MIT License)
@@ -134,28 +134,28 @@ Options:
 Examples:
 
 If you want to create an example model (via docker) as a starting point to learn about Frame just run: 
- docker run --rm -it -v "$(pwd)":/app/work frame/frame -create-example-model -output /app/work
+ docker run --rm -it -v "$(pwd)":/app/work creations-global/frame -create-example-model -output /app/work
 
 If you want to create a minimal stub model (via docker) as a starting point for your own model just run: 
- docker run --rm -it -v "$(pwd)":/app/work frame/frame -create-stub-model -output /app/work
+ docker run --rm -it -v "$(pwd)":/app/work creations-global/frame -create-stub-model -output /app/work
 
 If you want to execute Frame on a model yaml file (via docker): 
- docker run --rm -it -v "$(pwd)":/app/work frame/frame -verbose -model /app/work/frame.yaml -output /app/work
+ docker run --rm -it -v "$(pwd)":/app/work creations-global/frame -verbose -model /app/work/frame.yaml -output /app/work
 
 If you want to run Frame as a server (REST API) on some port (here 8080): 
- docker run --rm -it --shm-size=256m -p 8080:8080 --name frame-server --mount 'type=volume,src=frame-storage,dst=/data,readonly=false' frame/frame -server 8080
+ docker run --rm -it --shm-size=256m -p 8080:8080 --name frame-server --mount 'type=volume,src=frame-storage,dst=/data,readonly=false' creations-global/frame -server 8080
 
 If you want to find out about the different enum values usable in the model yaml file: 
- docker run --rm -it frame/frame -list-types
+ docker run --rm -it creations-global/frame -list-types
 
 If you want to use some nice editing help (syntax validation, autocompletion, and live templates) in your favourite IDE: 
- docker run --rm -it -v "$(pwd)":/app/work frame/frame -create-editing-support -output /app/work
+ docker run --rm -it -v "$(pwd)":/app/work creations-global/frame -create-editing-support -output /app/work
 
 If you want to list all available model macros (which are macros capable of reading a model yaml file, asking you questions in a wizard-style and then update the model yaml file accordingly): 
- docker run --rm -it frame/frame -list-model-macros
+ docker run --rm -it creations-global/frame -list-model-macros
 
 If you want to execute a certain model macro on the model yaml file (here the macro add-build-pipeline): 
- docker run --rm -it -v "$(pwd)":/app/work frame/frame -model /app/work/frame.yaml -output /app/work -execute-model-macro add-build-pipeline
+ docker run --rm -it -v "$(pwd)":/app/work creations-global/frame -model /app/work/frame.yaml -output /app/work -execute-model-macro add-build-pipeline
 ```
 
 **NOTE**: For the Text-to-Ascii in the help information we used https://patorjk.com/software/taag/#p=display&f=Big&t=Frame
