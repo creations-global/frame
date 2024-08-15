@@ -4,6 +4,8 @@ Based on "Threagile" at https://treagile.io
 
 Based on "Threagile on Github" at https://github.com/threagile
 
+Based on "Threagile - The Open-Source Agile Threat Modeling Toolkit" at https://www.youtube.com/watch?v=5n-8LqHMoJ0
+
 ## Introduction
 
 Create Frame as a Docker Image. It can be pulled from a Docker Image host (such as Docker Hub).
@@ -21,6 +23,8 @@ Make sure above script is executable:
 ```
 $ chmod +x frame.sh
 ```
+
+This script will (first time only) pull the Frame Docker Image from DockerHub, run it as a Container interactively (hence ```-it```), mount the dirrect directory as a volume inside the Frame Docker Container (path: ```/app/work```) and destroy the Frame Docker Container as soon as the command has been completed (hence ```-rm```).
 
 Now when we want to see the ```help``` information of frame, simply run the folliwing command in a terminal of a computer on which Docker is installed and has access to Docker Hub.
 
