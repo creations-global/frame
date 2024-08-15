@@ -56,8 +56,8 @@ Frame - Tagline
 
 
 Documentation: https://frame.io
-Docker Images: https://hub.docker.com/r/frame/frame
-Sourcecode: https://github.com/frame
+Docker Images: https://hub.docker.com/r/creations-global/frame
+Sourcecode: https://github.com/creations-global/frame
 License: Open-Source (MIT License)
 Version: 1.0.0 (20240730113903)
 
