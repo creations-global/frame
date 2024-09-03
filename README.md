@@ -37,6 +37,10 @@ Logline.
     - [Android](https://creations.global/frame/tutorials/android-app)
     - [iOS](https://creations.global/frame/tutorials/ios-app)
 
+## Discussions
+
+Connect with users of this repository by visiting [discussions](https://github.com/creations-global/frame/discussions).
+
 ## Documentation
 
   * [Frame command line](https://creations.global/frame/docs/user-manual)
