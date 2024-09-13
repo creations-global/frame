@@ -10,7 +10,7 @@ Based on "Push to GitHub Container Registry using GitHub Actions" at https://cod
 
 ## Introduction
 
-Create Frame as a Docker Image. It can be pulled from a Docker Image host (such as Docker Hub). It makes Frame platform independent.
+Create Frame as a Docker Image. It can be pulled from a Docker Image host (such as Docker Hub or Github Container Registry). It makes Frame platform independent.
 
 Within a script (e.g. ```frame.sh```) the creation of the Frame Docker Container is handled:
 
