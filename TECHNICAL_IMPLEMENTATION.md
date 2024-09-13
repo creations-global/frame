@@ -6,6 +6,8 @@ Based on "Threagile on Github" at https://github.com/threagile
 
 Based on "Threagile - The Open-Source Agile Threat Modeling Toolkit" at https://www.youtube.com/watch?v=5n-8LqHMoJ0
 
+Based on "Push to GitHub Container Registry using GitHub Actions" at https://codesalad.dev/blog/push-to-github-container-registry-using-github-actions-7
+
 ## Introduction
 
 Create Frame as a Docker Image. It can be pulled from a Docker Image host (such as Docker Hub). It makes Frame platform independent.
